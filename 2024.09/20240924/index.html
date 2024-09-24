@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판</title>
+    <link rel="stylesheet" href="styles.css"> <!-- CSS 파일 링크 -->
+</head>
+<body>
+    <h1>게시판 : 궁금한 것이 있다면 남겨주세요!</h1>
+    <div>
+        <!-- 제목 입력 필드 -->
+        <input type="text" id="title" placeholder="제목을 입력하세요">
+        <!-- 내용 입력 필드 -->
+        <textarea id="content" placeholder="내용을 입력하세요"></textarea>
+        <!-- 게시하기 버튼 -->
+        <button id="submit">게시하기</button>
+    </div>
+    <!-- 게시물이 추가될 영역 -->
+    <div id="posts"></div>
+
+    <script src="script.js"></script> <!-- JS 파일 링크 -->
+</body>
+</html>
